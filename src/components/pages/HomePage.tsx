@@ -7,7 +7,7 @@ import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { DynamicHero } from '../DynamicHero';
-import originalLogo from 'figma:asset/f8b7b71d0f5f7af4506ab75599b0c155fd28cb09.png';
+import originalLogo from '../../../public/logo.png';
 
 export function HomePage() {
   const { t } = useLanguage();
@@ -17,25 +17,25 @@ export function HomePage() {
       icon: Scissors,
       title: t('services.hairdressing'),
       description: t('services.hairdressing.desc'),
-      image: 'https://images.unsplash.com/photo-1710367847914-a1c8d2c5aa63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoYWlyc3R5bGlzdCUyMHdvcmtpbmd8ZW58MXx8fHwxNzU4NjI1MTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '../../../public/hair.jpg'
     },
     {
       icon: Palette,
       title: t('services.makeup'),
       description: t('services.makeup.desc'),
-      image: 'https://images.unsplash.com/photo-1606158436222-1896b18c5d25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWtldXAlMjBhcnRpc3QlMjBhcHBseWluZyUyMGNvc21ldGljc3xlbnwxfHx8fDE3NTg3MjAwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '../../../public/makeup.jpg'
     },
     {
       icon: Sparkles,
       title: t('services.skincare'),
       description: t('services.skincare.desc'),
-      image: 'https://images.unsplash.com/photo-1672015521020-ab4f86d5cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGElMjB3ZWxsbmVzcyUyMG1hc3NhZ2UlMjByZWxheGF0aW9ufGVufDF8fHx8MTc1ODcyMDA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '../../../public/skincare.jpg'
     },
     {
       icon: Heart,
       title: t('services.nails'),
       description: t('services.nails.desc'),
-      image: 'https://images.unsplash.com/photo-1599316329891-19df7fa9580d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWFuaWN1cmUlMjBuYWlsJTIwYXJ0fGVufDF8fHx8MTc1ODcyMDA3MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '../../../public/nail1.jpg'
     }
   ];
 
