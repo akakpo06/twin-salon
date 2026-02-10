@@ -18,13 +18,13 @@ export function ServicesPage() {
       description: t('services.hairdressing.desc'),
       image: '/hair1.jpg',
       services: [
-        { name: 'Women\'s Haircut', price: '$65-85', duration: '60 min' },
-        { name: 'Men\'s Haircut', price: '$45-55', duration: '45 min' },
-        { name: 'Hair Coloring (Full)', price: '$120-180', duration: '120 min' },
-        { name: 'Highlights/Lowlights', price: '$100-150', duration: '90 min' },
-        { name: 'Blowout & Styling', price: '$45-60', duration: '45 min' },
-        { name: 'Hair Treatment', price: '$80-120', duration: '60 min' },
-        { name: 'Wedding Updo', price: '$150-200', duration: '90 min' }
+        { name: 'Women\'s Haircut', price: 'FCFA 25000-35000', duration: '60 min' },
+        { name: 'Men\'s Haircut', price: 'FCFA 5000-15000', duration: '45 min' },
+        { name: 'Hair Coloring (Full)', price: 'FCFA 12000-18000', duration: '120 min' },
+        { name: 'Highlights/Lowlights', price: 'FCFA 10000-15000', duration: '90 min' },
+        { name: 'Blowout & Styling', price: 'FCFA 45000-65000', duration: '45 min' },
+        { name: 'Hair Treatment', price: 'FCFA 8500-12500', duration: '60 min' },
+        { name: 'Wedding Updo', price: 'FCFA 15000-20000', duration: '90 min' }
       ]
     },
     {
@@ -33,13 +33,13 @@ export function ServicesPage() {
       description: t('services.makeup.desc'),
       image: '/makeup.jpg',
       services: [
-        { name: 'Bridal Makeup', price: '$180-250', duration: '90 min' },
-        { name: 'Special Event Makeup', price: '$100-150', duration: '60 min' },
-        { name: 'Photoshoot Makeup', price: '$120-180', duration: '75 min' },
-        { name: 'Natural Day Look', price: '$80-100', duration: '45 min' },
-        { name: 'Evening Glam', price: '$120-160', duration: '60 min' },
-        { name: 'Makeup Lesson', price: '$150', duration: '90 min' },
-        { name: 'Makeup Trial', price: '$100', duration: '60 min' }
+        { name: 'Bridal Makeup', price: 'FCFA 18000-25000', duration: '90 min' },
+        { name: 'Special Event Makeup', price: 'FCFA 10000-15000', duration: '60 min' },
+        { name: 'Photoshoot Makeup', price: 'FCFA 12000-18000', duration: '75 min' },
+        { name: 'Natural Day Look', price: 'FCFA 8500-10500', duration: '45 min' },
+        { name: 'Evening Glam', price: 'FCFA 12500-16500', duration: '60 min' },
+        { name: 'Makeup Lesson', price: 'FCFA 15500', duration: '90 min' },
+        { name: 'Makeup Trial', price: 'FCFA 10000', duration: '60 min' }
       ]
     },
     {
@@ -48,13 +48,13 @@ export function ServicesPage() {
       description: t('services.skincare.desc'),
       image: '/skincare1.jpg',
       services: [
-        { name: 'Classic European Facial', price: '$90-120', duration: '75 min' },
-        { name: 'Deep Cleansing Facial', price: '$100-130', duration: '90 min' },
-        { name: 'Anti-Aging Treatment', price: '$150-200', duration: '90 min' },
-        { name: 'Hydrating Facial', price: '$85-110', duration: '60 min' },
-        { name: 'Relaxation Massage', price: '$120-180', duration: '60-90 min' },
-        { name: 'Micro-needling', price: '$200-250', duration: '75 min' },
-        { name: 'LED Light Therapy', price: '$80-100', duration: '45 min' }
+        { name: 'Classic European Facial', price: 'FCFA 9000-12000', duration: '75 min' },
+        { name: 'Deep Cleansing Facial', price: 'FCFA 10000-13000', duration: '90 min' },
+        { name: 'Anti-Aging Treatment', price: 'FCFA 15000-20000', duration: '90 min' },
+        { name: 'Hydrating Facial', price: 'FCFA 8500-11000', duration: '60 min' },
+        { name: 'Relaxation Massage', price: 'FCFA 12500-18500', duration: '60-90 min' },
+        { name: 'Micro-needling', price: 'FCFA 25500', duration: '75 min' },
+        { name: 'LED Light Therapy', price: 'FCFA 8000-10000', duration: '45 min' }
       ]
     },
     {
@@ -63,13 +63,13 @@ export function ServicesPage() {
       description: t('services.nails.desc'),
       image: '/nail.jpg',
       services: [
-        { name: 'Classic Manicure', price: '$35-45', duration: '45 min' },
-        { name: 'Gel Manicure', price: '$50-65', duration: '60 min' },
-        { name: 'Classic Pedicure', price: '$45-60', duration: '60 min' },
-        { name: 'Spa Pedicure', price: '$70-90', duration: '75 min' },
-        { name: 'Nail Art (Simple)', price: '+$10-20', duration: '+15 min' },
-        { name: 'Nail Art (Complex)', price: '+$25-50', duration: '+30 min' },
-        { name: 'Gel Extensions', price: '$80-120', duration: '90 min' }
+        { name: 'Classic Manicure', price: 'FCFA 3500-4500', duration: '45 min' },
+        { name: 'Gel Manicure', price: 'FCFA 5000-6500', duration: '60 min' },
+        { name: 'Classic Pedicure', price: 'FCFA 4500-6000', duration: '60 min' },
+        { name: 'Spa Pedicure', price: 'FCFA 7000-9000', duration: '75 min' },
+        { name: 'Nail Art (Simple)', price: '+FCFA 1000-2000', duration: '+15 min' },
+        { name: 'Nail Art (Complex)', price: '+FCFA 2500-5000', duration: '+30 min' },
+        { name: 'Gel Extensions', price: 'FCFA 8000-12000', duration: '90 min' }
       ]
     }
   ];
@@ -78,19 +78,19 @@ export function ServicesPage() {
     {
       name: 'Bridal Package',
       description: 'Complete bridal beauty package including trial, wedding day hair & makeup',
-      price: '$450-650',
+      price: 'FCFA 55000-75000',
       includes: ['Makeup & Hair Trial', 'Wedding Day Hair Styling', 'Wedding Day Makeup', 'Touch-up Kit']
     },
     {
       name: 'Pamper Day',
       description: 'Full day of relaxation and beauty treatments',
-      price: '$280-350',
+      price: 'FCFA 80000-95000',
       includes: ['European Facial', 'Relaxation Massage', 'Manicure & Pedicure', 'Hair Blowout']
     },
     {
       name: 'Girls Night Out',
       description: 'Perfect for special occasions and celebrations',
-      price: '$180-220',
+      price: 'FCFA 58000-72000',
       includes: ['Event Makeup', 'Hair Styling', 'Gel Manicure', 'Complimentary Champagne']
     }
   ];
