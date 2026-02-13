@@ -21,7 +21,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br  rounded-lg flex items-center justify-center">
-                <span className="font-bold text-white"><img src="../../public/logo.png" alt="Twins Salon Logo" className="w-15 h-15" /></span>
+                <span className="font-bold text-white"><img src="/logo.png" alt="Twins Salon Logo" className="w-15 h-15" /></span>
               </div>
               <div>
                 <div className="font-bold text-white">Twins Salon</div>
