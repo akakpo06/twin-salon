@@ -278,7 +278,19 @@ export function BookingPage() {
                   href="tel:+22879704777" 
                   className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
                 >
-                  +228 79704777
+                   79704777 / 
+                </a>
+                <a 
+                  href="tel:+22879442479" 
+                  className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
+                >
+                    79442479 / 
+                </a>
+                <a 
+                  href="tel:+22891681837" 
+                  className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
+                >
+                   91681837
                 </a>
               </CardContent>
             </Card>
@@ -340,18 +352,18 @@ export function BookingPage() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Confirmation</h4>
                   <p className="text-gray-600 mb-4">
-                    All appointments require confirmation. We'll contact you within 24 hours to confirm your booking.
+                    All appointments require confirmation with a 50% deposit, payable via Mixx by Yas, Flooz, or bank transfer. We'll contact you within 24 hours to confirm your booking.
                   </p>
                   
                   <h4 className="font-semibold text-gray-900 mb-3">Cancellation</h4>
                   <p className="text-gray-600">
-                    Please provide at least 24 hours notice for cancellations to avoid any charges.
+                    Please provide at least 72 hours notice for cancellations to avoid any charges. Any cancellation not reported in advance will not be eligible for a refund.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Late Arrivals</h4>
                   <p className="text-gray-600 mb-4">
-                    Please arrive 10 minutes early. Late arrivals may result in shortened service time.
+                    Please arrive 10 minutes early. Any delay will be charged 5,000 FCFA for every half hour.
                   </p>
                   
                   <h4 className="font-semibold text-gray-900 mb-3">Payment</h4>
